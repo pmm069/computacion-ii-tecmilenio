@@ -10,7 +10,7 @@ package figurasGeometricas;
  *
  * @author jgonzalezl
  */
-public class circulo extends figuraGeometrica implements metodosFigurasGeometricas{
+public class circulo extends figuraGeometrica implements metodosFigurasGeometricas {
         public double radio;
     
         public void circulo(double radio){
