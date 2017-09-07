@@ -34,7 +34,7 @@ public class cajero {
             usuario = user_input.nextLine();
 //NIP
             while(intentosNip < 4){
-            System.out.println("ingrese su NIP: ");
+            System.out.println("ingrese su NIP (4 numeros): ");
             nipUsuario = user_input.nextInt();
             
             if(nipUsuario != NIP){
